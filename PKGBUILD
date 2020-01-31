@@ -2,7 +2,7 @@
 # Contributor: kevku <kevku@gmx.com>
 
 pkgname=kodi-addon-inputstream-rtmp
-pkgver=2.0.7
+pkgver=2.0.8
 _codename=Leia
 pkgrel=1
 pkgdesc="RTMP input stream add-on for Kodi"
@@ -13,7 +13,7 @@ groups=('kodi-addons' 'kodi-addons-inputstream')
 depends=('kodi' 'rtmpdump' 'p8-platform')
 makedepends=('cmake' 'kodi-dev')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/xbmc/inputstream.rtmp/archive/$pkgver-$_codename.tar.gz")
-sha512sums=('a67be952bae24083403e5a8783c86af51b24d9f2759fdeb1e4bdc42912c55381189c5925b52743ce79dd03a3e510c65d4972728e2355082b91d73857b1657cd9')
+sha512sums=('fca7de7cf5ad65081bd25ea1a6cb5c1cdf41f72ba4460256918178060b62e04d389c293add1a10faf899750745ba77244cfb7af97ba613b2abcf6862839c751b')
 
 build() {
     cd "inputstream.rtmp-$pkgver-$_codename"
